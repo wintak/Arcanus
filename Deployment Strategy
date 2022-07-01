@@ -1,0 +1,13 @@
+
+
+I would choose aws serverless lambda function as a host for this function. i don't need to worry about
+managing my server or restful configuration for this function to work. i just want to execute the
+function and get an output when needed, and aws lambda function is suitable for this.it is accessible from anywhere
+and serverless applications are modular and independent.
+
+The problem rises when we try to process larger and larger data. The process time becomes longer which is going to
+be expensive as its charges with processing time. so the solution will be distributed systems where it can handle
+large data. the problem here is going to be merging the output of the function in every node and getting one
+output. from reading different articles using frameworks like hadoop can summarize our results.
+
+
